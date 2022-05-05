@@ -1,0 +1,22 @@
+.footer {
+  background-color:black;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.footer ul {
+  padding: 0;
+  font-size: 30px;
+  margin: 15px;
+  word-spacing: 10px;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+}
+
+.footer a {
+  color: white;
+}

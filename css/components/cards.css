@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+.card img {
+  height: 100px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display: block;
+  }
+  .card {
+    margin: 20px auto;
+  }
+
+}

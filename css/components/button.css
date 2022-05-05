@@ -1,0 +1,37 @@
+.btn-medium {
+  color: #9FA19F;
+  border-radius: 100px;
+  border: solid 1px #9FA19F;
+  padding: 12px 25px;
+}
+
+.btn-medium:hover {
+  color: rgb(120, 120, 120);
+  border: solid 1px rgb(120, 120, 120);
+}
+
+.btn-treehouse {
+  background-color: #6AD58B;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  transition: 0.2s;
+}
+
+.btn-treehouse:hover {
+  background-color: #3AC162;
+}
+
+.btn-yours {
+  background-color: #D90368;
+  border-radius: 2px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.btn-yours:hover {
+  background-color: hsl(332, 97%, 25%);
+}
